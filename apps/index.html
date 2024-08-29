@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, initial-scale=1.0">
+    <title>DSGN - Illustration Web App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="welcome-screen">
+        <img src="media/logo.png" alt="DSGN Logo">
+        <h1>Welcome to DSGN</h1>
+    </div>
+
+    <div id="workspace">
+        <header>
+            <img src="media/logo.png" alt="DSGN Logo" id="logo">
+            <div id="toolbar">
+                <!-- Toolbar Items Here -->
+            </div>
+            <div id="properties-bar">
+                <!-- Properties Bar Items Here -->
+            </div>
+            <div id="undo-redo">
+                <button id="undo">Undo <span id="undo-count">0</span></button>
+                <button id="redo">Redo <span id="redo-count">0</span></button>
+            </div>
+            <div id="zoom-controls">
+                <button id="zoom-in">Zoom In</button>
+                <button id="zoom-out">Zoom Out</button>
+                <span id="zoom-level">100%</span>
+            </div>
+        </header>
+
+        <main id="work-area">
+            <!-- Work Area (Canvas) -->
+        </main>
+
+        <aside id="layer-bar">
+            <!-- Layer Bar Items Here -->
+        </aside>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

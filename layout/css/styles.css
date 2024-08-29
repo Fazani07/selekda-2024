@@ -1,0 +1,233 @@
+/* CSS untuk Landing Page */
+
+/* Mengatur style dasar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header dengan logo dan navigasi */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#header .logo img {
+    height: 40px;
+}
+
+#header .main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#header .main-nav ul li {
+    margin: 0 15px;
+}
+
+#header .main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Banner Interaktif */
+#banner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+#banner button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Galeri */
+#gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#gallery .gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#gallery img, #gallery video {
+    width: 300px;
+    height: auto;
+}
+
+/* Tentang Kami */
+#about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Bagian Berita */
+#news {
+    padding: 50px 20px;
+}
+
+/* Bagian Layanan */
+#services {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Bagian Portofolio */
+#portfolio {
+    padding: 50px 20px;
+}
+
+/* Bagian Testimoni */
+#testimonials {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Bagian Pencarian */
+#search {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#search input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+#search button {
+    padding: 10px 20px;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+/* CSS untuk Halaman Blog */
+
+/* Mengatur container blog */
+#blog .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Mengatur daftar blog */
+.blog-list {
+    width: 70%;
+}
+
+.blog-item {
+    margin-bottom: 20px;
+}
+
+.blog-item img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-item h2 {
+    margin: 10px 0;
+}
+
+.blog-description {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.blog-meta {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+/* Mengatur sidebar blog */
+.blog-sidebar {
+    width: 25%;
+}
+
+.blog-sidebar h3 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Kategori blog */
+.blog-categories ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.blog-categories ul li {
+    margin-bottom: 10px;
+}
+
+.blog-categories ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Blog Populer */
+.popular-posts ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.popular-posts ul li {
+    margin-bottom: 10px;
+}
+
+.popular-posts ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Tag Clouds */
+.tag-clouds .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag-clouds .tags a {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
