@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header dengan Logo -->
+    <header id="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Anda">
+        </div>
+    </header>
+
+    <!-- Bagian Detail Blog -->
+    <section id="blog-detail">
+        <div class="container">
+            <article class="blog-content">
+                <h1>Judul Blog 1</h1>
+                <img src="MEDIA_FILES/IMAGES/images (3).webp" alt="Gambar Blog 1">
+                <div class="blog-meta">
+                    <span>Penulis: Admin</span> |
+                    <span>Tanggal: 29 Agustus 2024</span> |
+                    <span>Views: 100</span> |
+                    <span>Komentar: 10</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia aliquam voluptate
+                </p>
+            </article>
+            <article class="blog-content">
+                <h1>Judul Blog 2</h1>
+                <img src="MEDIA_FILES/IMAGES/images (3).png" alt="Gambar Blog 2">
+                <div class="blog-meta">
+                    <span>Penulis: Admin</span> |
+                    <span>Tanggal: 29 Agustus 2024</span> |
+                    <span>Views: 100</span> |
+                    <span>Komentar: 10</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia aliquam voluptate
+                </p>
+            </article>
+            
+
+            <!-- Komentar Blog -->
+            <section id="comments">
+                <h3>Komentar</h3>
+                <!-- Contoh Komentar -->
+                <div class="comment-item">
+                    <img src="MEDIA_FILES/SOCIAL_MEDIA/Black and White/aim.png" alt="User 1">
+                    <div class="comment-content">
+                        <h4>Nama Pengguna</h4>
+                        <span>29 Agustus 2024</span>
+                        <p>Komentar pengguna ini...</p>
+                    </div>
+                </div>
+                <!-- Tambahkan lebih banyak komentar sesuai kebutuhan -->
+            </section>
+
+            <!-- Formulir Komentar -->
+            <section id="comment-form">
+                <h3>Tinggalkan Komentar</h3>
+                <form action="#" method="post">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Subjek:</label>
+                    <input type="text" id="subject" name="subject">
+                    
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" name="website">
+                    
+                    <label for="comment">Komentar:</label>
+                    <textarea id="comment" name="comment" required></textarea>
+
+                    <!-- Captcha sederhana -->
+                    <label for="captcha">Apakah Anda manusia? (3 + 1 = ?):</label>
+                    <input type="text" id="captcha" name="captcha" required>
+
+                    <button type="submit">Kirim Komentar</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Sidebar Blog -->
+        <aside class="blog-sidebar">
+            <!-- Tag Populer -->
+            <div class="popular-tags">
+                <h3>Tag Populer</h3>
+                <div class="tags">
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JavaScript</a>
+                    <a href="#">PHP</a>
+                    <a href="#">Laravel</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

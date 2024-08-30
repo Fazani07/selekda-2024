@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header dengan Logo -->
+    <header id="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Anda">
+        </div>
+    </header>
+
+    <!-- Bagian Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h1>Portfolio</h1>
+            
+            <!-- Filter Kategori -->
+            <div class="portfolio-filters">
+                <button class="filter-button" data-filter="all">Semua</button>
+                <button class="filter-button" data-filter="web">Web Development</button>
+                <button class="filter-button" data-filter="design">Desain</button>
+                <button class="filter-button" data-filter="marketing">Pemasaran</button>
+            </div>
+
+            <!-- Daftar Portfolio -->
+            <div class="portfolio-list">
+                <!-- Contoh Item Portfolio -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="MEDIA_FILES/IMAGES/images (1).png" alt="Proyek Web Development 1">
+                    <div class="portfolio-info">
+                        <h2>Proyek Web Development 1</h2>
+                        <p>Deskripsi singkat tentang proyek ini...</p>
+                        <button class="view-details" onclick="openModal('modal1')">Lihat Detail</button>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="MEDIA_FILES/IMAGES/images (1).jpeg" alt="Proyek Web Development 2">
+                    <div class="portfolio-info">
+                        <h2>Proyek Web Development 2</h2>
+                        <p>Deskripsi singkat tentang proyek ini...</p>
+                        <button class="view-details" onclick="openModal('modal2')">Lihat Detail</button>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Detail Project -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Proyek Web Development 1</h2>
+            <img src="MEDIA_FILES/IMAGES/images (1).jpeg" width="300px" alt="Proyek Web Development 1">
+            <p>Deskripsi lengkap tentang proyek ini...</p>
+            <p>Penulis: Admin | Tanggal: 29 Agustus 2024 | Views: 200 | Komentar: 15</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Proyek Web Development 2</h2>
+            <img src="MEDIA_FILES/IMAGES/images (10).jpg" width="300px" alt="Proyek Web Development 1">
+            <p>Deskripsi lengkap tentang proyek ini...</p>
+            <p>Penulis: Admin | Tanggal: 30 Agustus 2024 | Views: 200 | Komentar: 15</p>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
