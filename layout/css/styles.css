@@ -249,7 +249,7 @@ body {
 }
 
 .blog-content img {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -258,12 +258,12 @@ body {
 }
 
 .blog-meta {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #999;
 }
 
 .blog-content p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #333;
     line-height: 1.6;
 }
