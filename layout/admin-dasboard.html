@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="css/admin.css">
-    <!-- Anda bisa menambahkan library chart.js atau yang lain di sini -->
 </head>
 <body>
 
-    <!-- Header dengan Logo -->
+    <!-- Header -->
     <header id="header">
         <div class="logo">
-            <img src="images/logo.png" alt="Logo Anda">
+            <img src="../Design/WebTech.png"  alt="Logo">
         </div>
         <nav>
             <ul>
@@ -27,7 +26,7 @@
     <!-- Sidebar Kiri -->
     <aside id="sidebar">
         <div class="user-info">
-            <img src="MEDIA_FILES/SOCIAL_MEDIA/Black and White/reddit.png" alt="Foto Pengguna">
+            <img src="../Design/WebTech.png" alt="Foto Pengguna">
             <p>Admin</p>
         </div>
         <ul class="sidebar-menu">
@@ -47,15 +46,15 @@
             <!-- Bagian Statistik dengan 3 Chart -->
             <section id="statistics">
                 <div class="chart">
-                    <canvas id="chart1"></canvas>
+                    <canvas id="chart1" width="400" height="200"></canvas>
                     <p>Statistik Pengunjung</p>
                 </div>
                 <div class="chart">
-                    <canvas id="chart2"></canvas>
+                    <canvas id="chart2" width="400" height="200"></canvas>
                     <p>Statistik Penjualan</p>
                 </div>
                 <div class="chart">
-                    <canvas id="chart3"></canvas>
+                    <canvas id="chart3" width="400" height="200"></canvas>
                     <p>Statistik Aktivitas Pengguna</p>
                 </div>
             </section>
@@ -68,7 +67,6 @@
         </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
