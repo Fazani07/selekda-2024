@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', () => {
     // Fading out welcome screen after 1 second
     setTimeout(() => {
@@ -27,5 +25,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Fungsionalitas lain seperti undo/redo, toolbar, layer, dll. bisa ditambahkan sesuai dengan kebutuhan.
 });

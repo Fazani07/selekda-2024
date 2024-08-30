@@ -14,11 +14,12 @@ body, html {
 
 #welcome-screen {
     text-align: center;
-    animation: fadeOut 1s forwards;
+    animation: fadeOut 3s forwards;
+    -webkit-animation: fadeOut 3s forwards;
 }
 
 @keyframes fadeOut {
-    0% { opacity: 1; }
+    0% { opacity: 2; }
     100% { opacity: 0; visibility: hidden; }
 }
 
